@@ -117,6 +117,10 @@
                 <e p="Cherry.cs" t="Include" />
                 <e p="IConsumable.cs" t="Include" />
               </e>
+              <e p="Enviroment" t="Include">
+                <e p="ChainPlatform.cs" t="Include" />
+                <e p="EnableGameObjectAndDestroy.cs" t="Include" />
+              </e>
               <e p="Player" t="Include">
                 <e p="Animator" t="Include">
                   <e p="AnimatorFacade.cs" t="Include" />
