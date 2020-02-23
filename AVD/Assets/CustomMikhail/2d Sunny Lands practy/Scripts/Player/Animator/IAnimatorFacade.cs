@@ -5,5 +5,5 @@ public interface IAnimatorFacade
     void setVerticalSpeed(float speed);
     void setOnGround(bool onGround);
     void setCrouching(bool crouch);
-    
+    void setEagle(bool eagle);
 }

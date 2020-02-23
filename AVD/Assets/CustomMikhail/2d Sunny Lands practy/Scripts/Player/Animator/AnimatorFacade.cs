@@ -1,22 +1,36 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class AnimatorFacade : MonoBehaviour
-{
+namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Player.Animator {
+    public class AnimatorFacade : MonoBehaviour, IAnimatorFacade {
+        private UnityEngine.Animator animator;
+        private static readonly int Speed = UnityEngine.Animator.StringToHash("Speed");
+        private static readonly int VerVelocity = UnityEngine.Animator.StringToHash("verVelocity");
+        private static readonly int Grounded = UnityEngine.Animator.StringToHash("grounded");
+        private static readonly int Eagle = UnityEngine.Animator.StringToHash("eagle");
 
-    private Animator animator;
+        void Start() {
+            animator = GetComponent<UnityEngine.Animator>();
+        }
 
-    void Start()
-    {
-        animator = GetComponent<Animator>();    
+
+        public void setSpeed(float speed) {
+            animator.SetFloat(Speed, speed);
+        }
+
+        public void setVerticalSpeed(float speed) {
+            animator.SetFloat(VerVelocity, speed);
+
+        }
+
+        public void setOnGround(bool onGround) {
+            animator.SetBool(Grounded,onGround);
+        }
+
+        public void setCrouching(bool crouch) {
+        }
+
+        public void setEagle(bool eagle) {
+            animator.SetBool(Eagle,eagle);
+        }
     }
-
-
-    void setSpeed(float speed) { }
-    void setVerticalSpeed(float speed) { }
-    void setOnGround(bool onGround) { }
-    void setCrouching(bool crouch) { }
-
-
 }

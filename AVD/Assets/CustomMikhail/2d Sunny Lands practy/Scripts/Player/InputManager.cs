@@ -1,24 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
-public class InputManager : MonoBehaviour
-{
+namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Player {
+    public class InputManager : MonoBehaviour {
+        [SerializeField] private GameObject playerGo;
+        private IPlayer player;
+        
+        private void Start() {
+            player = playerGo.GetComponent<IPlayer>();
+        }
 
-    [SerializeField] private IPlayer player;
-
-    void Update() {
-        if (Input.GetKeyDown("Jump"))
-        {
-            if(player.getMovement() is IJumpable)
-            {
-                ((IJumpable)player.getMovement()).jump();
+        void Update() {
+            if (Input.GetButtonDown("Jump")) {
+                if (player.getMovement() is IJumpable) {
+                    ((IJumpable) player.getMovement()).jump();
+                }
             }
         }
-    }
 
 
-    public static float getHorInput() {
-        return Input.GetAxis("Horizontal");
+        public static float getHorInput() {
+            return Input.GetAxis("Horizontal");
+        }
     }
 }
