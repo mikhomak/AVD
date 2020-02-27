@@ -120,6 +120,7 @@
               <e p="Enviroment" t="Include">
                 <e p="ChainPlatform.cs" t="Include" />
                 <e p="EnableGameObjectAndDestroy.cs" t="Include" />
+                <e p="MovingObject.cs" t="Include" />
               </e>
               <e p="Player" t="Include">
                 <e p="Animator" t="Include">

@@ -9,7 +9,7 @@ public class EnableGameObjectAndDestroy : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.tag.Equals("Player")) {
             gameObjectToEnable.SetActive(true);
-            Destroy(this);
+            Destroy(gameObject);
         }
     }
 }
