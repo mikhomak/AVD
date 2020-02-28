@@ -7,5 +7,6 @@ namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Player {
         void activateFollowingTrail(bool activate);
         void emitTransformation();
         void emitJumpParticles(Vector3 position);
+        void emitRacoonTransform();
     }
 }

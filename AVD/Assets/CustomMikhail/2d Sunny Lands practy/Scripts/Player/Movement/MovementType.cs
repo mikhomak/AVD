@@ -5,6 +5,7 @@ namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Player.Movement {
         ground,
         midair,
         crouching,
-        eagle
+        eagle,
+        racoon
     }
 }

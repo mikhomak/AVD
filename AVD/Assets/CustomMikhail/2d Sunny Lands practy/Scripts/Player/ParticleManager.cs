@@ -8,15 +8,17 @@ namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Player {
         private readonly ParticleSystem transformationParticles;
         private readonly GameObject jumpParticlesGO;
         private readonly ParticleSystem jumpParticles;
+        private readonly ParticleSystem racoonTransform;
         
         
         
-        public ParticleManager(GameObject dustParticle, GameObject trailParticle, ParticleSystem transformationPs, GameObject jumpParticles) {
+        public ParticleManager(GameObject dustParticle, GameObject trailParticle, ParticleSystem transformationPs, GameObject jumpParticles, ParticleSystem racoonTransform) {
             this.dustParticle = dustParticle;
             this.trailParticle = trailParticle;
             transformationParticles = transformationPs;
             jumpParticlesGO = jumpParticles;
             this.jumpParticles = jumpParticlesGO.GetComponent<ParticleSystem>();
+            this.racoonTransform = racoonTransform;
         }
 
         public void activateDustParticles(bool activate) {
@@ -42,6 +44,10 @@ namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Player {
         public void emitJumpParticles(Vector3 position) {
             jumpParticlesGO.transform.position = position;
             jumpParticles.Emit(10);
+        }
+
+        public void emitRacoonTransform() {
+            racoonTransform.Emit(50);
         }
     }
 }

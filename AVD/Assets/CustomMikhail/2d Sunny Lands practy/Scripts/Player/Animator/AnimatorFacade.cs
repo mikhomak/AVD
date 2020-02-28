@@ -7,6 +7,7 @@ namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Player.Animator {
         private static readonly int VerVelocity = UnityEngine.Animator.StringToHash("verVelocity");
         private static readonly int Grounded = UnityEngine.Animator.StringToHash("grounded");
         private static readonly int Eagle = UnityEngine.Animator.StringToHash("eagle");
+        private static readonly int Racoon = UnityEngine.Animator.StringToHash("racoon");
 
         void Start() {
             animator = GetComponent<UnityEngine.Animator>();
@@ -31,6 +32,10 @@ namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Player.Animator {
 
         public void setEagle(bool eagle) {
             animator.SetBool(Eagle,eagle);
+        }
+
+        public void setRacoon(bool racoon) {
+            animator.SetBool(Racoon, racoon);
         }
     }
 }

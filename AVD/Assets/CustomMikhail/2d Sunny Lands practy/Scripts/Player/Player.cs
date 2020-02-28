@@ -9,6 +9,7 @@ namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Player {
         [SerializeField] private GameObject trailParticles;
         [SerializeField] private ParticleSystem transformationParticleSystem;
         [SerializeField] private GameObject jumpParticlesSystem;
+        [SerializeField] private ParticleSystem racoonParticleSystem;
         
         private Rigidbody2D rb2d;
         private Vector3 velocity;
@@ -24,7 +25,7 @@ namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Player {
             animatorFacade = GetComponentInChildren<IAnimatorFacade>();
             stats = GetComponent<Stats>();
             audioManager = GetComponent<IAudioManager>();
-            particleManager = new ParticleManager(dustParticles,trailParticles,transformationParticleSystem, jumpParticlesSystem);
+            particleManager = new ParticleManager(dustParticles,trailParticles,transformationParticleSystem, jumpParticlesSystem,racoonParticleSystem);
             initMovemnts();
             movement = movements[MovementType.ground];
         }
@@ -51,6 +52,9 @@ namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Player {
         }
 
         public void changeMovement(MovementType type) {
+            if (!movements.ContainsKey(type)) {
+                return;
+            }
             movement.cleanUp();
             movement = movements[type];
             movement.setUp();
@@ -78,6 +82,11 @@ namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Player {
 
         public IAudioManager getAudioManager() {
             return  audioManager;
+        }
+
+        public void addRacoon() {
+            movements.Add(MovementType.racoon,new RacoonMovement(this));
+            particleManager.emitRacoonTransform();
         }
     }
 }

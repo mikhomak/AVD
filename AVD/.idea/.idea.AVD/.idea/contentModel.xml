@@ -113,9 +113,10 @@
                 <e p="AudioManager.cs" t="Include" />
                 <e p="IAudioManager.cs" t="Include" />
               </e>
-              <e p="Consumable" t="Include">
-                <e p="Cherry.cs" t="Include" />
-                <e p="IConsumable.cs" t="Include" />
+              <e p="Boss" t="Include">
+                <e p="IRacoon.cs" t="Include" />
+                <e p="Platform.cs" t="Include" />
+                <e p="Racoon.cs" t="Include" />
               </e>
               <e p="Enviroment" t="Include">
                 <e p="ChainPlatform.cs" t="Include" />
@@ -143,6 +144,7 @@
                   <e p="IMovement.cs" t="Include" />
                   <e p="MidairMovement.cs" t="Include" />
                   <e p="MovementType.cs" t="Include" />
+                  <e p="RacoonMovement.cs" t="Include" />
                 </e>
                 <e p="ParticleManager.cs" t="Include" />
                 <e p="Player.cs" t="Include" />
@@ -152,6 +154,9 @@
           </e>
           <e p="Menu" t="Include">
             <e p="LevelManager.cs" t="Include" />
+          </e>
+          <e p="Turret" t="Include">
+            <e p="BulletScript.cs" t="Include" />
           </e>
         </e>
         <e p="Samples" t="Include">

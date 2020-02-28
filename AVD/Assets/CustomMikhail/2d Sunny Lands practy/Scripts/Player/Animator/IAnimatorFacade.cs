@@ -6,4 +6,5 @@ public interface IAnimatorFacade
     void setOnGround(bool onGround);
     void setCrouching(bool crouch);
     void setEagle(bool eagle);
+    void setRacoon(bool racoonin);
 }

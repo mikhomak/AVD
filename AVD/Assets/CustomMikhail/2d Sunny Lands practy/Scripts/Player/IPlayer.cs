@@ -13,5 +13,6 @@ namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Player {
         Vector3 getVelocityToShow();
         IParticleManager getParticleManager();
         IAudioManager getAudioManager();
+        void addRacoon();
     }
 }

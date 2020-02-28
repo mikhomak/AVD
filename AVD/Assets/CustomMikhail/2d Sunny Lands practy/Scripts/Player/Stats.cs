@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Stats : MonoBehaviour {
     [SerializeField] private float speed;
+    [SerializeField] private float racoonSpeed;
     [SerializeField] private float additionalGravity;
     [SerializeField] private float maximumDownSpeed;
     [SerializeField] private float jumpForce;
@@ -14,6 +15,12 @@ public class Stats : MonoBehaviour {
     public float Speed {
         get => speed;
         set => speed = value;
+    }
+
+
+    public float RacoonSpeed {
+        get => racoonSpeed;
+        set => racoonSpeed = value;
     }
 
     public float AdditionalGravity {
