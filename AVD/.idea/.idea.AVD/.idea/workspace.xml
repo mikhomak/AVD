@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f53643b-7cc3-47d0-a374-824a99af419a" name="Default Changelist" comment="" />
+    <list default="true" id="5f53643b-7cc3-47d0-a374-824a99af419a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/BulletMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/BulletMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/BulletScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Sphere.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Sphere.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/cirrcular.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/cirrcular.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/init.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/init.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/selfDestruction.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/selfDestruction.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/turret.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/turret.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/TurretScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomMikhail/TurretScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,15 +28,20 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Animator/IAnimatorFacade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Movement/EagleMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/Turret/MainTurret.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Animator/AnimatorFacade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/Turret/Turret.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/94C5F4C3-8CDC-42D2-B006-F8BADEF04394/73/d42c9f70/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/IParticleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Movement/MovementType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Auido/AudioEffects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/Turret/BulletScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Movement/IMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/CharacterController2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/Turret/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Movement/GroundMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Boss/IRacoon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/Turret/Ball.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Auido/IAudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/ParticleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Movement/MidairMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,6 +58,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/IPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Enviroment/ChainPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Enviroment/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/Turret/CubeMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Boss/Racoon.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -69,6 +90,12 @@
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Animator/IAnimatorFacade.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/InputManager.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Movement/RacoonMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/BulletScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/MainTurret.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Turret.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/CubeMovement.cs" />
       </list>
     </option>
   </component>
@@ -123,6 +150,7 @@
       <updated>1582392281366</updated>
       <workItem from="1582392341956" duration="21122000" />
       <workItem from="1582919088055" duration="6238000" />
+      <workItem from="1584290464958" duration="9641000" />
     </task>
     <servers />
   </component>

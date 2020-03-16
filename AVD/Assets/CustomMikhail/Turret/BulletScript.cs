@@ -1,20 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class BulletScript : MonoBehaviour
-{
+public class BulletScript : MonoBehaviour {
+    [SerializeField] private Rigidbody rbd;
+    [SerializeField] private float speed = 15f;
 
-    private Rigidbody rbd;
-
-    // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
+        Destroy(this, 5f);
+        rbd = GetComponent<Rigidbody>();
+        rbd.useGravity = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void FixedUpdate() {
+        rbd.velocity = transform.forward * speed;
     }
 }

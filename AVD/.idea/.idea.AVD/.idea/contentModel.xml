@@ -156,7 +156,12 @@
             <e p="LevelManager.cs" t="Include" />
           </e>
           <e p="Turret" t="Include">
+            <e p="Ball.cs" t="Include" />
             <e p="BulletScript.cs" t="Include" />
+            <e p="CubeMovement.cs" t="Include" />
+            <e p="MainTurret.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="Turret.cs" t="Include" />
           </e>
         </e>
         <e p="Samples" t="Include">
