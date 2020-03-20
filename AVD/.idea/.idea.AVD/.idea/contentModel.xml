@@ -155,6 +155,10 @@
           <e p="Menu" t="Include">
             <e p="LevelManager.cs" t="Include" />
           </e>
+          <e p="NavMeshScene" t="Include">
+            <e p="LocomotionSimpleAgent.cs" t="Include" />
+            <e p="SimpleMovement.cs" t="Include" />
+          </e>
           <e p="Turret" t="Include">
             <e p="Ball.cs" t="Include" />
             <e p="BulletScript.cs" t="Include" />
