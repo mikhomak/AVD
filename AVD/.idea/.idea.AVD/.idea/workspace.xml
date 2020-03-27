@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f53643b-7cc3-47d0-a374-824a99af419a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/NavMeshScene/NavMeshPlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomMikhail/NavMeshScene/NavMeshPlayer.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scenes/ExampleScene/GlobalPostVolume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scenes/ExampleScene/GlobalPostVolume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/UniversalRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/UniversalRenderPipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Boss/IRacoon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/Turret/Ball.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Auido/IAudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scenes/ExampleScene/GlobalPostVolume Profile.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/ParticleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Movement/MidairMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Enviroment/EnableGameObjectAndDestroy.cs" root0="FORCE_HIGHLIGHTING" />
@@ -88,6 +92,7 @@
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/CubeMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/NavMeshScene/LocomotionSimpleAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/NavMeshScene/SimpleMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomMikhail/DnaceParty/TimelienController.cs" />
       </list>
     </option>
   </component>
@@ -143,7 +148,8 @@
       <workItem from="1582392341956" duration="21122000" />
       <workItem from="1582919088055" duration="6238000" />
       <workItem from="1584290464958" duration="9641000" />
-      <workItem from="1584722197808" duration="3233000" />
+      <workItem from="1584722197808" duration="3259000" />
+      <workItem from="1585331862763" duration="621000" />
     </task>
     <servers />
   </component>
