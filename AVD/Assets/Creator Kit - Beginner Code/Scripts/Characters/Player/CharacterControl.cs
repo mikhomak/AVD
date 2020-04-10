@@ -244,6 +244,10 @@ namespace CreatorKitCodeInternal {
             //Keyboard shortcuts
             if(Input.GetKeyUp(KeyCode.I))
                 UISystem.Instance.ToggleInventory();
+
+            if (Input.GetKeyUp(KeyCode.Space)) {
+                m_Animator.SetTrigger("jump_attack");
+            }
         }
 
         void GoToRespawn()

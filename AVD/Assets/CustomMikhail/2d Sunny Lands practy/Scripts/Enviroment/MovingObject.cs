@@ -5,7 +5,7 @@ namespace CustomMikhail._2d_Sunny_Lands_practy.Scripts.Enviroment {
     public class MovingObject : MonoBehaviour {
         [SerializeField] private Vector3 direction;
         [SerializeField] private float speed;
-        [SerializeField] private float lifeTime;
+        [SerializeField] private float lifeTime = 1f;
 
         private void Start() {
             Destroy(gameObject, lifeTime);
