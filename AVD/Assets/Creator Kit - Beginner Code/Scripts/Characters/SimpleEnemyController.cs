@@ -97,7 +97,7 @@ namespace CreatorKitCodeInternal {
             {
                 case State.IDLE:
                 {
-                    if (Vector3.SqrMagnitude(playerPosition - transform.position) < detectionRadius * detectionRadius)
+                    if (Vector3.SqrMagnitude(playerPosition - transform.position) < detectionRadius * detectionRadius * 1)
                     {
                         if (SpottedAudioClip.Length != 0)
                         {
@@ -117,7 +117,7 @@ namespace CreatorKitCodeInternal {
                 case State.PURSUING:
                 {
                     float distToPlayer = Vector3.SqrMagnitude(playerPosition - transform.position);
-                    if (distToPlayer < detectionRadius * detectionRadius)
+                    if (distToPlayer < detectionRadius * detectionRadius * 1)
                     {
                         m_PursuitTimer = 4.0f;
 
