@@ -21,6 +21,8 @@ namespace CreatorKitCodeInternal {
         public CharacterData CurrentTarget => m_CurrentTargetCharacterData;
 
         public Transform WeaponLocator;
+
+        public bool StopInteracting;
     
         [Header("Audio")]
         public AudioClip[] SpurSoundClips;
@@ -61,14 +63,14 @@ namespace CreatorKitCodeInternal {
 
         SpawnPoint m_CurrentSpawn = null;
     
-        enum State
+        public enum State
         {
             DEFAULT,
             HIT,
             ATTACKING
         }
 
-        State m_CurrentState;
+        public State m_CurrentState;
 
         void Awake()
         {
@@ -209,7 +211,7 @@ namespace CreatorKitCodeInternal {
             }
 
 
-            if (!EventSystem.current.IsPointerOverGameObject() && m_CurrentState != State.ATTACKING)
+            if ( !StopInteracting && !EventSystem.current.IsPointerOverGameObject() && m_CurrentState != State.ATTACKING)
             {
                 //Raycast to find object currently under the mouse cursor
                 ObjectsRaycasts(screenRay);
@@ -246,6 +248,8 @@ namespace CreatorKitCodeInternal {
                 UISystem.Instance.ToggleInventory();
 
             if (Input.GetKeyUp(KeyCode.Space)) {
+                StopInteracting = true;
+                m_CurrentState = State.DEFAULT;
                 m_Animator.SetTrigger("jump_attack");
             }
         }

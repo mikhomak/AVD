@@ -196,5 +196,9 @@ namespace CreatorKitCodeInternal {
             m_CharacterAudio.Step(pos);
             VFXManager.PlayVFX(VFXType.StepPuff, pos); 
         }
+
+        public CharacterData GetCharacterData() {
+            return m_CharacterData;
+        }
     }
 }

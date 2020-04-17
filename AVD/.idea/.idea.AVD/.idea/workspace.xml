@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f53643b-7cc3-47d0-a374-824a99af419a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADV/MAIN2019V.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ADV/MAIN2019V.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Animations/MadMikeMoose/jump_attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Animations/MadMikeMoose/jump_attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/CactusBossyEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/CactusBossyEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/CactusNailsEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/CactusNailsEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/AnimationControllerDispatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/AnimationControllerDispatcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/Player/CharacterControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/Player/CharacterControl.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/SimpleEnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/SimpleEnemyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Timeline/intro.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Timeline/intro.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +23,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Damage/GroundCrack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Movement/EagleMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/Turret/MainTurret.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/CharacterSystem/StatSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/Turret/BulletScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/NavMeshScene/SimpleMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Movement/GroundMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Enviroment/EnableGameObjectAndDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Audio/CharacterAudio.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Boss/Platform.cs" root0="FORCE_HIGHLIGHTING" />
@@ -102,11 +113,13 @@
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/NavMeshScene/LocomotionSimpleAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/NavMeshScene/SimpleMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/DnaceParty/TimelienController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/Player/CharacterControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/UI/MenuUI.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Enviroment/EnableGameObjectAndDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Enviroment/MovingObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/SimpleEnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Damage/GroundCrack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/Player/CharacterControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/AnimationControllerDispatcher.cs" />
       </list>
     </option>
   </component>
@@ -165,7 +178,11 @@
       <workItem from="1584722197808" duration="3259000" />
       <workItem from="1585331862763" duration="1230000" />
       <workItem from="1586194974287" duration="222000" />
-      <workItem from="1586364838870" duration="6043000" />
+      <workItem from="1586364838870" duration="6652000" />
+      <workItem from="1586882319577" duration="1903000" />
+      <workItem from="1586971948772" duration="1648000" />
+      <workItem from="1587059185916" duration="2424000" />
+      <workItem from="1587112621806" duration="2919000" />
     </task>
     <servers />
   </component>
@@ -192,13 +209,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="764" y="195" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582923158637" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1582920160850">
+    <state x="627" y="252" width="666" height="536" key="find.popup" timestamp="1587113475984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582920160850" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582925257897">
+    <state x="627" y="252" width="666" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587113475984" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1587113799521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582925257897" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587113799521" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586972524707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586972524707" />
   </component>
 </project>

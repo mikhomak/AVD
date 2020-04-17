@@ -44,6 +44,9 @@
               <e p="InventorySystem.cs" t="Include" />
               <e p="StatSystem.cs" t="Include" />
             </e>
+            <e p="Damage" t="Include">
+              <e p="GroundCrack.cs" t="Include" />
+            </e>
             <e p="Editor" t="Include">
               <e p="CreateScriptEditor.cs" t="Include" />
               <e p="DocUnzip" t="Include">
