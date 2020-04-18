@@ -29,7 +29,7 @@ namespace CreatorKitCodeInternal {
     
         Vector3 m_LastRaycastResult;
         Animator m_Animator;
-        NavMeshAgent m_Agent;
+        public NavMeshAgent m_Agent;
         CharacterData m_CharacterData;
 
         HighlightableObject m_Highlighted;

@@ -21,6 +21,7 @@ namespace CreatorKitCode
         public Weapon StartingWeapon;
         public InventorySystem Inventory = new InventorySystem();
         public EquipmentSystem Equipment = new EquipmentSystem();
+        public bool invincible;
 
         public AudioClip[] HitClip;
     
@@ -139,20 +140,20 @@ namespace CreatorKitCode
         /// <param name="attackData"></param>
         public void Damage(Weapon.AttackData attackData)
         {
-            if (HitClip.Length != 0)
-            {
-                SFXManager.PlaySound(SFXManager.Use.Player, new SFXManager.PlayData()
-                {
-                    Clip = HitClip[Random.Range(0, HitClip.Length)],
-                    PitchMax =  1.1f,
-                    PitchMin =  0.8f,
-                    Position = transform.position
-                });
+            if (!invincible) {
+                if (HitClip.Length != 0) {
+                    SFXManager.PlaySound(SFXManager.Use.Player, new SFXManager.PlayData() {
+                        Clip = HitClip[Random.Range(0, HitClip.Length)],
+                        PitchMax = 1.1f,
+                        PitchMin = 0.8f,
+                        Position = transform.position
+                    });
+                }
+
+                Stats.Damage(attackData);
+
+                OnDamage?.Invoke();
             }
-        
-            Stats.Damage(attackData);
-            
-            OnDamage?.Invoke();
         }
     }
 }
