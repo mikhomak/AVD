@@ -31,8 +31,8 @@ public class Turret : MonoBehaviour {
         if (shooting) {
             timer += Time.deltaTime;
             if (timer >= fireRate) {
-                leftShootParticleSystem.Emit(30);
-                rightShootParticleSystem.Emit(30);
+                leftShootParticleSystem.Emit(10);
+                rightShootParticleSystem.Emit(10);
                 Instantiate(projectilePrefab, leftGun.position, transform.rotation);
                 Instantiate(projectilePrefab, rightGun.position, transform.rotation);
                 timer = 0;

@@ -62,7 +62,11 @@ namespace CreatorKitCodeInternal {
         bool m_ClearPostAttack = false;
 
         SpawnPoint m_CurrentSpawn = null;
-    
+        
+        
+        public bool jumping;
+        [SerializeField] private GameObject turretPrefab;
+        
         public enum State
         {
             DEFAULT,
@@ -247,10 +251,15 @@ namespace CreatorKitCodeInternal {
             if(Input.GetKeyUp(KeyCode.I))
                 UISystem.Instance.ToggleInventory();
 
-            if (Input.GetKeyUp(KeyCode.Space)) {
+            if (Input.GetKeyUp(KeyCode.Space) && !jumping) {
+                jumping = true;
                 StopInteracting = true;
                 m_CurrentState = State.DEFAULT;
                 m_Animator.SetTrigger("jump_attack");
+            }
+
+            if (Input.GetKeyUp(KeyCode.A)) {
+                Instantiate(turretPrefab, transform.position, new Quaternion(0,Random.Range(0,360),0,Random.Range(0,360)));
             }
         }
 

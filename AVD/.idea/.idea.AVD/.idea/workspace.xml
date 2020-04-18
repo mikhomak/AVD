@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f53643b-7cc3-47d0-a374-824a99af419a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ADV/MAIN2019V.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ADV/MAIN2019V.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Animations/MadMikeMoose/jump_attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Animations/MadMikeMoose/jump_attack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/CactusBossyEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/CactusBossyEnemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/CactusNailsEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/CactusNailsEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/Turret.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/Turret.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/AnimationControllerDispatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/AnimationControllerDispatcher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/Player/CharacterControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/Player/CharacterControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/SimpleEnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/SimpleEnemyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Timeline/intro.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Timeline/intro.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Damage/GroundCrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Damage/GroundCrack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Bullet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Bullet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/BulletScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Turret.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Turret.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,9 +102,7 @@
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Animator/IAnimatorFacade.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/InputManager.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Movement/RacoonMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/BulletScript.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/MainTurret.cs" />
-        <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Turret.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Ball.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/CubeMovement.cs" />
@@ -117,9 +113,11 @@
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Enviroment/EnableGameObjectAndDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Enviroment/MovingObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/SimpleEnemyController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Damage/GroundCrack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/Player/CharacterControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/AnimationControllerDispatcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/BulletScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Damage/GroundCrack.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Turret.cs" />
+        <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/Player/CharacterControl.cs" />
       </list>
     </option>
   </component>
@@ -183,6 +181,7 @@
       <workItem from="1586971948772" duration="1648000" />
       <workItem from="1587059185916" duration="2424000" />
       <workItem from="1587112621806" duration="2919000" />
+      <workItem from="1587218948029" duration="3126000" />
     </task>
     <servers />
   </component>

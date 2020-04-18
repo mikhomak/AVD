@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class BulletScript : MonoBehaviour {
     [SerializeField] private Rigidbody rbd;

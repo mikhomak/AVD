@@ -58,6 +58,7 @@ namespace CreatorKitCodeInternal {
             if (characterControl != null) {
                 characterControl.StopInteracting = false;
                 characterControl.m_CurrentState = CharacterControl.State.DEFAULT;
+                characterControl.jumping = false;
             }
             Instantiate(groundCrackPrefab, transform.position, Quaternion.identity);
         }
