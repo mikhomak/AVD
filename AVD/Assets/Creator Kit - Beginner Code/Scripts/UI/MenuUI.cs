@@ -3,15 +3,25 @@ using UnityEngine;
 
 namespace Scripts.UI {
     public class MenuUI : MonoBehaviour {
-        private void Start() {
-            CharacterControl.Instance.m_Agent.speed = 0f;
-        }
+        [SerializeField] private GameObject mainPage;
+        [SerializeField] private GameObject creditPage;
+        [SerializeField] private GameObject intro;
+        [SerializeField] private GameObject mainImage;
 
         public void Play() {
-            CharacterControl.Instance.m_Agent.speed = 3.5f;
+            mainPage.SetActive(false);
+            mainImage.SetActive(false);
+            intro.SetActive(true);
         }
 
-        public void Credits() {
+        public void GoToCreditsPage() {
+            creditPage.SetActive(true);
+            mainPage.SetActive(false);
+        }
+
+        public void GoToMainPage() {
+            creditPage.SetActive(false);
+            mainPage.SetActive(true);
         }
     }
 }

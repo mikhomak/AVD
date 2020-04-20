@@ -5,7 +5,7 @@ using UnityEngine;
 public class GroundCrack : MonoBehaviour {
     [SerializeField] private int damage = 50;
     public void Start() {
-        Destroy(gameObject, 6.7f);
+        Destroy(gameObject, 4f);
     }
 
     public void OnTriggerEnter(Collider other) {
