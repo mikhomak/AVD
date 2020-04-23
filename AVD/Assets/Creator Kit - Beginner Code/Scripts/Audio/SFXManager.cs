@@ -4,9 +4,6 @@ using CreatorKitCode;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
 
 namespace CreatorKitCode 
 {
@@ -136,72 +133,3 @@ namespace CreatorKitCode
         }
     }
 }
-
-#if UNITY_EDITOR
-[CustomEditor(typeof(SFXManager))]
-public class SFXManagerEditor : Editor
-{
-    SerializedProperty m_PrefabsArrayProp;
-    SerializedProperty m_PoolAmountProp;
-    SerializedProperty m_ListenerProp;
-    SerializedProperty m_ListenerTargetProp;
-    SerializedProperty m_DefaultSwingSoundProp;
-    SerializedProperty m_DefaultHitSoundProp;
-    SerializedProperty m_DefaultItemUsedSound;
-    SerializedProperty m_DefaultItemEquippedSound;
-    SerializedProperty m_DefaultPickupSoundProp;
-    
-    void OnEnable()
-    {
-        m_PrefabsArrayProp = serializedObject.FindProperty("m_Prefabs");
-        m_PoolAmountProp = serializedObject.FindProperty("m_PoolAmount");
-
-        m_ListenerProp = serializedObject.FindProperty(nameof(SFXManager.Listener));
-        m_ListenerTargetProp = serializedObject.FindProperty(nameof(SFXManager.ListenerTarget));
-
-        m_DefaultSwingSoundProp = serializedObject.FindProperty(nameof(SFXManager.DefaultSwingSound));
-        m_DefaultHitSoundProp = serializedObject.FindProperty(nameof(SFXManager.DefaultHitSound));
-        m_DefaultItemUsedSound = serializedObject.FindProperty(nameof(SFXManager.DefaultItemUsedSound));
-        m_DefaultItemEquippedSound = serializedObject.FindProperty(nameof(SFXManager.DefaultItemEquipedSound));
-        m_DefaultPickupSoundProp = serializedObject.FindProperty(nameof(SFXManager.DefaultPickupSound));
-        
-        int useSize = Enum.GetValues(typeof(SFXManager.Use)).Length;
-        if (m_PrefabsArrayProp.arraySize != useSize)
-            m_PrefabsArrayProp.arraySize = useSize;
-        if (m_PoolAmountProp.arraySize != useSize)
-            m_PoolAmountProp.arraySize = useSize;
-
-        serializedObject.ApplyModifiedProperties();
-    }
-
-    public override void OnInspectorGUI()
-    {
-        serializedObject.Update();
-        
-        EditorGUILayout.LabelField("Listener Info");
-        EditorGUILayout.PropertyField(m_ListenerProp);
-        EditorGUILayout.PropertyField(m_ListenerTargetProp);
-
-        EditorGUILayout.PropertyField(m_DefaultSwingSoundProp, true);
-        EditorGUILayout.PropertyField(m_DefaultHitSoundProp, true);
-        EditorGUILayout.PropertyField(m_DefaultItemUsedSound);
-        EditorGUILayout.PropertyField(m_DefaultItemEquippedSound);
-        EditorGUILayout.PropertyField(m_DefaultPickupSoundProp);
-        
-        EditorGUILayout.LabelField("Prefab Per Use");
-
-        float saveWidth = EditorGUIUtility.labelWidth;
-        EditorGUIUtility.labelWidth = 128.0f;
-        for (int i = 0; i < m_PrefabsArrayProp.arraySize; ++i)
-        {
-            EditorGUILayout.BeginHorizontal();
-            EditorGUILayout.PropertyField(m_PrefabsArrayProp.GetArrayElementAtIndex(i), new GUIContent(((SFXManager.Use)i).ToString()));
-            EditorGUILayout.PropertyField(m_PoolAmountProp.GetArrayElementAtIndex(i), new GUIContent("Pool Size"));
-            EditorGUILayout.EndHorizontal();
-        }
-        EditorGUIUtility.labelWidth = saveWidth;
-        
-        serializedObject.ApplyModifiedProperties();
-    }
-}
-#endif

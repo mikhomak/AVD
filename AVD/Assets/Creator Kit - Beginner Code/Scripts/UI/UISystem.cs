@@ -20,6 +20,7 @@ namespace CreatorKitCodeInternal
         public Text CurrentHealth;
         public EffectIconUI[] TimedModifierIcones;
         public Text StatsText;
+        public Text TurretsText;
 
         [Header("Enemy")]
         public Slider EnemyHealthSlider;
@@ -138,6 +139,10 @@ namespace CreatorKitCodeInternal
                 InventoryWindow.Load(PlayerCharacter.Data);
                 SFXManager.PlaySound(SFXManager.Use.Sound2D, new SFXManager.PlayData(){ Clip = OpenInventoryClip});
             }
+        }
+
+        public void UpdateTurrets(int turrets) {
+            TurretsText.text = "Turrets: " + turrets;
         }
     }
 }

@@ -51,18 +51,6 @@
             <e p="Damage" t="Include">
               <e p="GroundCrack.cs" t="Include" />
             </e>
-            <e p="Editor" t="Include">
-              <e p="CreateScriptEditor.cs" t="Include" />
-              <e p="DocUnzip" t="Include">
-                <e p="OpenDocumentation.cs" t="Include" />
-              </e>
-              <e p="SampleEquipmentEffect.txt" t="Include" />
-              <e p="SampleInteractableObject.txt" t="Include" />
-              <e p="SampleItemEffect.txt" t="Include" />
-              <e p="SampleWeaponEffect.txt" t="Include" />
-              <e p="SaveScriptState.cs" t="Include" />
-              <e p="VFXDBEditor.cs" t="Include" />
-            </e>
             <e p="GameplayObject" t="Include">
               <e p="BreakableObject.cs" t="Include" />
               <e p="Container.cs" t="Include" />
@@ -73,6 +61,7 @@
             <e p="HighlightableObject.cs" t="Include" />
             <e p="InteractableObject.cs" t="Include" />
             <e p="Items" t="Include">
+              <e p="Chest.cs" t="Include" />
               <e p="Effects" t="Include">
                 <e p="ApplyBurnWeaponEffect.cs" t="Include" />
                 <e p="IncreaseStrengthEffect.cs" t="Include" />

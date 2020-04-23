@@ -66,7 +66,7 @@ namespace CreatorKitCodeInternal {
         
         public bool jumping;
         [SerializeField] private GameObject turretPrefab;
-        
+        public int turrets = 3;
         public enum State
         {
             DEFAULT,
@@ -259,7 +259,12 @@ namespace CreatorKitCodeInternal {
             }
 
             if (Input.GetKeyUp(KeyCode.A)) {
-                Instantiate(turretPrefab, transform.position, new Quaternion(0,Random.Range(0,360),0,Random.Range(0,360)));
+                if (turrets > 0) {
+                    Instantiate(turretPrefab, transform.position,
+                        new Quaternion(0, Random.Range(0, 360), 0, Random.Range(0, 360)));
+                    turrets--;
+                    UISystem.Instance.UpdateTurrets(turrets);
+                }
             }
         }
 

@@ -22,6 +22,8 @@ namespace CreatorKitCode
         public InventorySystem Inventory = new InventorySystem();
         public EquipmentSystem Equipment = new EquipmentSystem();
         public bool invincible;
+        private readonly  float invincibleTime = 3f;
+        private float invincibleTimer;
 
         public AudioClip[] HitClip;
     
@@ -68,6 +70,15 @@ namespace CreatorKitCode
 
             if (m_AttackCoolDown > 0.0f)
                 m_AttackCoolDown -= Time.deltaTime;
+
+            if (invincible) {
+                if (invincibleTimer >= invincibleTime) {
+                    invincibleTimer = 0f;
+                    invincible = false;
+                }
+
+                invincibleTimer += Time.deltaTime;
+            }
         }
 
         /// <summary>
