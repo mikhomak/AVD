@@ -2,58 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f53643b-7cc3-47d0-a374-824a99af419a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Models/chest/Krita_TreasureChest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Models/chest/Krita_TreasureChest.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Models/chest/Krita_TreasureChest_Norm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Models/chest/Krita_TreasureChest_Norm.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Models/chest/TreasureChest.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Models/chest/TreasureChest.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Models/chest/chest.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Models/chest/chestTimeline.playable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/TreasureChest.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Chest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ADV/MAIN2019V.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ADV/MAIN2019V.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyFree_Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyFree_Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Models/chest.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/Bullet.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/GroundCrack.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/GroundCrack.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Models/chest/chest.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Audio/SFXManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Audio/SFXManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/CharacterSystem/CharacterData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/CharacterSystem/CharacterData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/CharacterSystem/StatSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/CharacterSystem/StatSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/Player/CharacterControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/Player/CharacterControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Art/Models/chest/chestTimeline.playable.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/CreateScriptEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/CreateScriptEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/DocUnzip.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/DocUnzip/OpenDocumentation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/DocUnzip/OpenDocumentation.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Chest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/SampleEquipmentEffect.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/SampleEquipmentEffect.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/TreasureChest.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/SampleInteractableObject.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/SampleInteractableObject.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/SampleItemEffect.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/SampleItemEffect.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/SampleWeaponEffect.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/SampleWeaponEffect.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/SaveScriptState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/SaveScriptState.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/VFXDBEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Editor/VFXDBEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/GameplayObject/LootSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/GameplayObject/LootSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/EquipmentItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/EquipmentItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/UsableItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/UsableItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/UI/InventoryUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/UI/InventoryUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/UI/UISystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/UI/UISystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Timeline/intro.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Timeline/intro.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/DnaceParty/chest/chestTimeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomMikhail/DnaceParty/chest/chestTimeline.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomMikhail/Turret/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Chest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Chest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +126,6 @@
         <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/SimpleEnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/UI/UISystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/Player/CharacterControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Chest.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/CharacterSystem/StatSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/EquipmentItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Audio/SFXManager.cs" />
@@ -186,6 +138,7 @@
         <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/UI/InventoryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyFree_Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Chest.cs" />
       </list>
     </option>
   </component>
@@ -254,6 +207,8 @@
       <workItem from="1587499931628" duration="1795000" />
       <workItem from="1587577716788" duration="3480000" />
       <workItem from="1587654810252" duration="3372000" />
+      <workItem from="1587665628942" duration="253000" />
+      <workItem from="1587668086101" duration="660000" />
     </task>
     <servers />
   </component>
