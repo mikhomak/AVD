@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f53643b-7cc3-47d0-a374-824a99af419a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ADV/MAIN2019V.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ADV/MAIN2019V.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/Bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/GroundCrack.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/GroundCrack.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Chest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Chest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +15,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Damage/GroundCrack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/HighlightableObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Movement/EagleMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/Turret/MainTurret.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/CharacterSystem/StatSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -27,6 +25,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/CharacterSystem/CharacterData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/AnimationControllerDispatcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/GameplayObject/BreakableObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Scenes/Scripting/ScriptingExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Prefabs/Character.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/GameplayObject/LootSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/IParticleManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,9 +49,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Characters/SimpleEnemyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Tutorial/SpawnerSample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Movement/AbstractMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/12367F2A-D39E-40BA-B24D-7CF58E5D56D8/57/7303bc7f/PlayableDirector.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Auido/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Utility/RandomLoopOffset.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Enviroment/ChainPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Boss/Racoon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Samples/Cinemachine/2.5.0/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Scripts/CharacterMovement2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Chest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Animator/IAnimatorFacade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/Animator/AnimatorFacade.cs" root0="FORCE_HIGHLIGHTING" />
@@ -81,6 +84,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/AllSkyFree/AllSkyFree_Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/DnaceParty/TimelineController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FarlandSkies/Demo/Scripts/Skybox/SkyboxChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Player/IPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/2d Sunny Lands practy/Scripts/Enviroment/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomMikhail/Turret/CubeMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -209,6 +213,7 @@
       <workItem from="1587654810252" duration="3372000" />
       <workItem from="1587665628942" duration="253000" />
       <workItem from="1587668086101" duration="660000" />
+      <workItem from="1588008079064" duration="1964000" />
     </task>
     <servers />
   </component>
@@ -239,10 +244,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="764" y="195" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587500981796" />
-    <state x="305" y="165" width="1398" height="710" key="find.popup" timestamp="1587658516576">
+    <state x="305" y="165" width="1398" height="710" key="find.popup" timestamp="1588009378891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="305" y="165" width="1398" height="710" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587658516576" />
+    <state x="305" y="165" width="1398" height="710" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588009378891" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1587500942688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
