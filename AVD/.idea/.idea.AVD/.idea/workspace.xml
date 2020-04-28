@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f53643b-7cc3-47d0-a374-824a99af419a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AVD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Chest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - Beginner Code/Scripts/Items/Chest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +212,7 @@
       <workItem from="1587654810252" duration="3372000" />
       <workItem from="1587665628942" duration="253000" />
       <workItem from="1587668086101" duration="660000" />
-      <workItem from="1588008079064" duration="1964000" />
+      <workItem from="1588008079064" duration="3144000" />
     </task>
     <servers />
   </component>
